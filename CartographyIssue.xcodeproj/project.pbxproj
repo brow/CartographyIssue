@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA13EA201A8B40FC005E68A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13EA1F1A8B40FC005E68A7 /* AppDelegate.swift */; };
+		EA13EA221A8B40FC005E68A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA13EA211A8B40FC005E68A7 /* Images.xcassets */; };
+		EA13EA251A8B40FC005E68A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA13EA231A8B40FC005E68A7 /* MainMenu.xib */; };
+		EA13EA311A8B40FC005E68A7 /* CartographyIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13EA301A8B40FC005E68A7 /* CartographyIssueTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA13EA2B1A8B40FC005E68A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA13EA121A8B40FC005E68A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA13EA191A8B40FC005E68A7;
+			remoteInfo = CartographyIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA13EA1A1A8B40FC005E68A7 /* CartographyIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartographyIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA13EA1E1A8B40FC005E68A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA13EA1F1A8B40FC005E68A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA13EA211A8B40FC005E68A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA13EA241A8B40FC005E68A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EA13EA2A1A8B40FC005E68A7 /* CartographyIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartographyIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA13EA2F1A8B40FC005E68A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA13EA301A8B40FC005E68A7 /* CartographyIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartographyIssueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA13EA171A8B40FC005E68A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13EA271A8B40FC005E68A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA13EA111A8B40FC005E68A7 = {
+			isa = PBXGroup;
+			children = (
+				EA13EA1C1A8B40FC005E68A7 /* CartographyIssue */,
+				EA13EA2D1A8B40FC005E68A7 /* CartographyIssueTests */,
+				EA13EA1B1A8B40FC005E68A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA13EA1B1A8B40FC005E68A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA13EA1A1A8B40FC005E68A7 /* CartographyIssue.app */,
+				EA13EA2A1A8B40FC005E68A7 /* CartographyIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA13EA1C1A8B40FC005E68A7 /* CartographyIssue */ = {
+			isa = PBXGroup;
+			children = (
+				EA13EA1F1A8B40FC005E68A7 /* AppDelegate.swift */,
+				EA13EA211A8B40FC005E68A7 /* Images.xcassets */,
+				EA13EA231A8B40FC005E68A7 /* MainMenu.xib */,
+				EA13EA1D1A8B40FC005E68A7 /* Supporting Files */,
+			);
+			path = CartographyIssue;
+			sourceTree = "<group>";
+		};
+		EA13EA1D1A8B40FC005E68A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA13EA1E1A8B40FC005E68A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA13EA2D1A8B40FC005E68A7 /* CartographyIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA13EA301A8B40FC005E68A7 /* CartographyIssueTests.swift */,
+				EA13EA2E1A8B40FC005E68A7 /* Supporting Files */,
+			);
+			path = CartographyIssueTests;
+			sourceTree = "<group>";
+		};
+		EA13EA2E1A8B40FC005E68A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA13EA2F1A8B40FC005E68A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA13EA191A8B40FC005E68A7 /* CartographyIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA13EA341A8B40FC005E68A7 /* Build configuration list for PBXNativeTarget "CartographyIssue" */;
+			buildPhases = (
+				EA13EA161A8B40FC005E68A7 /* Sources */,
+				EA13EA171A8B40FC005E68A7 /* Frameworks */,
+				EA13EA181A8B40FC005E68A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartographyIssue;
+			productName = CartographyIssue;
+			productReference = EA13EA1A1A8B40FC005E68A7 /* CartographyIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA13EA291A8B40FC005E68A7 /* CartographyIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA13EA371A8B40FC005E68A7 /* Build configuration list for PBXNativeTarget "CartographyIssueTests" */;
+			buildPhases = (
+				EA13EA261A8B40FC005E68A7 /* Sources */,
+				EA13EA271A8B40FC005E68A7 /* Frameworks */,
+				EA13EA281A8B40FC005E68A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA13EA2C1A8B40FC005E68A7 /* PBXTargetDependency */,
+			);
+			name = CartographyIssueTests;
+			productName = CartographyIssueTests;
+			productReference = EA13EA2A1A8B40FC005E68A7 /* CartographyIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA13EA121A8B40FC005E68A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tom Brow";
+				TargetAttributes = {
+					EA13EA191A8B40FC005E68A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EA13EA291A8B40FC005E68A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EA13EA191A8B40FC005E68A7;
+					};
+				};
+			};
+			buildConfigurationList = EA13EA151A8B40FC005E68A7 /* Build configuration list for PBXProject "CartographyIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA13EA111A8B40FC005E68A7;
+			productRefGroup = EA13EA1B1A8B40FC005E68A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA13EA191A8B40FC005E68A7 /* CartographyIssue */,
+				EA13EA291A8B40FC005E68A7 /* CartographyIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA13EA181A8B40FC005E68A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13EA221A8B40FC005E68A7 /* Images.xcassets in Resources */,
+				EA13EA251A8B40FC005E68A7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13EA281A8B40FC005E68A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA13EA161A8B40FC005E68A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13EA201A8B40FC005E68A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13EA261A8B40FC005E68A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13EA311A8B40FC005E68A7 /* CartographyIssueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA13EA2C1A8B40FC005E68A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA13EA191A8B40FC005E68A7 /* CartographyIssue */;
+			targetProxy = EA13EA2B1A8B40FC005E68A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA13EA231A8B40FC005E68A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13EA241A8B40FC005E68A7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA13EA321A8B40FC005E68A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA13EA331A8B40FC005E68A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA13EA351A8B40FC005E68A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CartographyIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA13EA361A8B40FC005E68A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CartographyIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA13EA381A8B40FC005E68A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CartographyIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartographyIssue.app/Contents/MacOS/CartographyIssue";
+			};
+			name = Debug;
+		};
+		EA13EA391A8B40FC005E68A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CartographyIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartographyIssue.app/Contents/MacOS/CartographyIssue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA13EA151A8B40FC005E68A7 /* Build configuration list for PBXProject "CartographyIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13EA321A8B40FC005E68A7 /* Debug */,
+				EA13EA331A8B40FC005E68A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA13EA341A8B40FC005E68A7 /* Build configuration list for PBXNativeTarget "CartographyIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13EA351A8B40FC005E68A7 /* Debug */,
+				EA13EA361A8B40FC005E68A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA13EA371A8B40FC005E68A7 /* Build configuration list for PBXNativeTarget "CartographyIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13EA381A8B40FC005E68A7 /* Debug */,
+				EA13EA391A8B40FC005E68A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA13EA121A8B40FC005E68A7 /* Project object */;
+}
